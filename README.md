@@ -6,7 +6,7 @@ The project was built to practice core JavaScript concepts such as **DOM manipul
 
 ---
 
-## ✨ Features
+ ✨ Features
 - Displays current time in real-time (Digital Clock)
 - Stopwatch with start, stop, and reset functionality
 - Simple and beginner-friendly UI
@@ -14,14 +14,14 @@ The project was built to practice core JavaScript concepts such as **DOM manipul
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 - HTML
 - CSS
 - JavaScript
 
 ---
 
-## 🧠 Concepts Used
+ 🧠 Concepts Used
 - DOM manipulation
 - Event listeners
 - `Date` object
@@ -30,7 +30,7 @@ The project was built to practice core JavaScript concepts such as **DOM manipul
 
 ---
 
-## 🎯 Purpose
+ 🎯 Purpose
 This mini project was created to:
 - Strengthen JavaScript fundamentals
 - Practice working with browser events
@@ -39,9 +39,10 @@ This mini project was created to:
 This project complements my other **real-world JavaScript and React projects** available on my GitHub profile.
 
 ---
- ## LIVE DEMO : 
+ ## LIVE DEMO : https://ritika1210.github.io/mini-projects-js/
  
 ## 👩‍💻 Author
 **Ritika**
+
 
 
