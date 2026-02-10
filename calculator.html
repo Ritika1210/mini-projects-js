@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=q, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculatorcontainer">
+    <div class="calculator">
+        <input type="text" disabled id="no.ip"/>
+        <input placeholder="ANS" type="text" disabled id="res"/>
+        <div class="buttons">
+            <div class="row">
+                <div onclick="handleclickbtn(this)" class=" col col-sm- cl-btn">+</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">-</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">*</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">/</div>
+                
+            </div>
+            <div class="row">
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">7</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">8</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">9</div>
+                
+            </div>
+            <div class="row">
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">4</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">5</div>
+                <div onclick="handleclickbtn(this)"  class="col col-3 cl-btn">6</div>
+            </div>
+            <div class="row">
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">1</div>
+                <div onclick="handleclickbtn(this)" class="col col-3 cl-btn">2</div>
+                <div onclick="handleclickbtn(this)"  class="col col-3 cl-btn">3</div>
+            </div>
+            <div class="row">
+                 <div onclick="handleclickbtn(this)" class="col col-4 cl-btn">0</div>
+                  <div onclick="reset()" class="col col-8 cl-btn">clear</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src ="scriptcalc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <h1> Calculator</h1>
+</body>
+</html>
